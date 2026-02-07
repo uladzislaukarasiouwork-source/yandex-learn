@@ -185,5 +185,6 @@ def get_data_info(data: pd.DataFrame) -> dict:
     return info
 
 
-# Alias for backward compatibility (если нужно сохранить старый интерфейс)
+# Alias for backward compatibility
 split_data = split_features_target
+
