@@ -1,0 +1,64 @@
+# ============= Python =============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ============= Virtual Environment =============
+.venv/
+venv/
+env/
+ENV/
+
+# ============= IDE =============
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============= OS =============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# ============= Данные =============
+# Коммитим ТОЛЬКО исходные данные
+data/*.csv
+!data/uber.csv        # ← ЭТОТ файл коммитим
+data/*.pkl
+data/*.pickle
+data/*.parquet
+data/processed/       # Все обработанные данные
+data/interim/         # Промежуточные данные
+
+# ============= Модели =============
+models/               # Не коммитим обученные модели
+
+# ============= Документация =============
+site/                 # Сгенерированная MkDocs
+
+# ============= Тестирование =============
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ============= Логи и кэш =============
+*.log
+logs/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============= Временные файлы =============
+temp/
+tmp/

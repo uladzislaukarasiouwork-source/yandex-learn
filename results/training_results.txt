@@ -1,0 +1,5 @@
+Model Training Results
+==============================
+R² Score: 0.6736
+Model Type: GradientBoostingRegressor
+Features used: 10
