@@ -1,0 +1,15 @@
+site_name: Taxi Fare Prediction
+site_description: Документация проекта
+site_author: Ваше Имя
+
+theme:
+  name: material
+
+nav:
+  - Главная: index.md
+  - Руководство: guide.md
+  - Структура проекта: structure.md
+
+markdown_extensions:
+  - codehilite
+  - fenced_code
